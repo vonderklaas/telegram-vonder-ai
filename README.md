@@ -1,4 +1,4 @@
-py-bookmarks
+py-flask-api
 
 ## Quick Start
 

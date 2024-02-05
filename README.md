@@ -2,7 +2,7 @@
 
 Run API
 
-```
+```console
 python main.py
 ```
 

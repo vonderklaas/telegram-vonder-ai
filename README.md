@@ -1,19 +1,17 @@
-py-flask-api
+### Quick Start
 
-## Quick Start
-
-```bash
-
-python main.py
+Run API
 
 ```
+python main.py
+```
 
-## API Endpoints
+### Endpoints
 
 ```python
 @app.route('/bookmarks', methods=['GET'])
-@app.route('/bookmarks/<string:id>', methods=['GET'])
 @app.route('/bookmarks', methods=['POST'])
+@app.route('/bookmarks/<string:id>', methods=['GET'])
 @app.route('/bookmarks/<string:id>', methods=['PUT'])
 @app.route('/bookmarks/<string:id>', methods=['DELETE'])
 ```
